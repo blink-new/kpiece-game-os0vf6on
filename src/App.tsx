@@ -660,7 +660,7 @@ function App() {
                                 size="sm"
                                 variant={i === 9 ? "destructive" : "outline"}
                                 className="h-8 w-8 p-0"
-                                onClick={() => toast.info(`Combat niveau ${i + 1} - Bientôt disponible !`)}
+                                onClick={() => toast(`Combat niveau ${i + 1} - Bientôt disponible !`)}
                               >
                                 {i === 9 ? <Crown className="w-3 h-3" /> : i + 1}
                               </Button>
